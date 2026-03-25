@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tracking neurons across days with high-density probes | local report</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      max-width: 920px;
+      margin: 36px auto;
+      padding: 0 24px;
+      line-height: 1.65;
+      color: #111827;
+      background: #fafaf9;
+    }
+    .kicker { text-transform: uppercase; letter-spacing: 0.12em; font-size: 11px; color: #6b7280; margin-bottom: 8px; }
+    h1 { font-size: 36px; line-height: 1.08; margin: 0 0 10px; }
+    h2 { font-size: 22px; margin-top: 34px; border-top: 1px solid #d6d3d1; padding-top: 18px; }
+    h3 { font-size: 18px; margin-top: 22px; }
+    p, li { font-size: 15px; }
+    .meta { color: #4b5563; font-size: 14px; margin-bottom: 20px; }
+    .abstract { border-left: 3px solid #111827; padding-left: 16px; margin: 18px 0 28px; }
+    figure { margin: 28px 0 34px; }
+    img { width: 100%; height: auto; border: 1px solid #d6d3d1; background: white; }
+    figcaption { font-size: 13px; color: #374151; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="kicker">Nature Methods Style Local Reproduction</div>
+  <h1>Tracking neurons across days with high-density probes</h1>
+  <div class="meta">Local full-data UnitMatch report generated 2026-03-25</div>
+  <div class="abstract"><strong>Abstract.</strong> This local report packages a full-data UnitMatch run across the bundled recordings in a paper-like format. It focuses on the classifier-construction, functional-validation, and multi-recording tracking results requested for review. The local bundle supports waveform-based matching, ISI validation, and a spike-time-derived reference-population analog, but not the natural-image-response validation dataset used in the paper.</div>
+  <h2>Key Summary</h2>
+  <ul><li><strong>Sessions processed:</strong> 20</li>
+<li><strong>Pairs processed:</strong> 10</li>
+<li><strong>Mice:</strong> AL032, AV008, CB016, EB019, JF067</li>
+<li><strong>Acute mean tracked fraction:</strong> 40.7%</li>
+<li><strong>Chronic mean tracked fraction:</strong> 46.3%</li>
+<li><strong>Within-day false-positive median:</strong> 0.19%</li>
+<li><strong>Within-day false-negative median:</strong> 9.25%</li>
+<li><strong>ISI across-day AUC mean:</strong> 0.906</li>
+<li><strong>Reference-population across-day AUC mean:</strong> 0.930</li></ul>
+  <h2>Results</h2>
+  <h3>Computing similarity scores and setting up the classifier</h3>
+  <figure>
+    <img src="figures/figure3_like_classifier_overview.png" alt="classifier overview">
+    <figcaption>Figure 3-like local analog built from the AL032 consecutive-day example pair.</figcaption>
+  </figure>
+  <h3>Validation with stable functional properties</h3>
+  <figure>
+    <img src="figures/figure4_like_functional_validation.png" alt="functional validation">
+    <figcaption>Figure 4-like local analog using the functional fingerprints supported by the bundled spike-time data.</figcaption>
+  </figure>
+  <h3>Tracking neurons over many recordings</h3>
+  <figure>
+    <img src="figures/figure5_like_tracking_overview.png" alt="tracking overview">
+    <figcaption>Figure 5-like local analog using the saved multi-session classic runs across the bundled mice.</figcaption>
+  </figure>
+  <h2>Data Files</h2>
+  <ul><li><code>within_day_metrics</code>: <a href="../data/within_day_metrics.csv">within_day_metrics.csv</a></li>
+<li><code>pair_tracking</code>: <a href="../data/pair_tracking.csv">pair_tracking.csv</a></li>
+<li><code>full_data_summary</code>: <a href="../data/full_data_summary.json">full_data_summary.json</a></li>
+<li><code>isi_within_day</code>: <a href="../data/isi_within_day.csv">isi_within_day.csv</a></li>
+<li><code>isi_across_day</code>: <a href="../data/isi_across_day.csv">isi_across_day.csv</a></li>
+<li><code>refpop_within_day</code>: <a href="../data/refpop_within_day.csv">refpop_within_day.csv</a></li>
+<li><code>refpop_across_day</code>: <a href="../data/refpop_across_day.csv">refpop_across_day.csv</a></li>
+<li><code>tracking_algorithm_summary</code>: <a href="../data/tracking_algorithm_summary.csv">tracking_algorithm_summary.csv</a></li>
+<li><code>tracking_gap_table</code>: <a href="../data/tracking_gap_table.csv">tracking_gap_table.csv</a></li></ul>
+</body>
+</html>

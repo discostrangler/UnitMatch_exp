@@ -1,0 +1,26 @@
+{
+  "generated_on": "2026-03-25",
+  "source_roots": {
+    "full_data_classic": "/Users/akshat/Downloads/UnitMatch-main/local_runs/full_data_classic",
+    "multi_session_by_mouse": "/Users/akshat/Downloads/UnitMatch-main/local_runs/multi_session_by_mouse"
+  },
+  "report_markdown": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/report/report.md",
+  "report_html": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/report/report.html",
+  "report_pdf": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/report/report.pdf",
+  "figures": {
+    "classifier": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/report/figures/figure3_like_classifier_overview.png",
+    "functional": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/report/figures/figure4_like_functional_validation.png",
+    "tracking": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/report/figures/figure5_like_tracking_overview.png"
+  },
+  "tables": {
+    "within_day_metrics": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/within_day_metrics.csv",
+    "pair_tracking": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/pair_tracking.csv",
+    "full_data_summary": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/full_data_summary.json",
+    "isi_within_day": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/isi_within_day.csv",
+    "isi_across_day": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/isi_across_day.csv",
+    "refpop_within_day": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/refpop_within_day.csv",
+    "refpop_across_day": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/refpop_across_day.csv",
+    "tracking_algorithm_summary": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/tracking_algorithm_summary.csv",
+    "tracking_gap_table": "/Users/akshat/Downloads/UnitMatch-main/local_runs_1/data/tracking_gap_table.csv"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "session_count": 20,
+  "pair_count": 10,
+  "mice": [
+    "AL032",
+    "AV008",
+    "CB016",
+    "EB019",
+    "JF067"
+  ],
+  "acute_pair_count": 5,
+  "chronic_pair_count": 5,
+  "sanitized_session_runs": 7,
+  "sanitized_pair_runs": 4,
+  "within_day_false_positive_percent_mean": 2.045087308413045,
+  "within_day_false_positive_percent_median": 0.185031649894558,
+  "within_day_false_negative_percent_mean": 10.799818078969546,
+  "within_day_false_negative_percent_median": 9.247248427672957,
+  "all_pair_tracked_fraction_mean": 0.43523441900542714,
+  "all_pair_tracked_fraction_median": 0.4640740740740741,
+  "acute_pair_tracked_fraction_mean": 0.4071123136123136,
+  "chronic_pair_tracked_fraction_mean": 0.4633565243985406,
+  "figure_paths": {
+    "dashboard": "/Users/akshat/Downloads/UnitMatch-main/local_runs/full_data_classic/figures/full_data_dashboard.png",
+    "distributions": "/Users/akshat/Downloads/UnitMatch-main/local_runs/full_data_classic/figures/full_data_distributions.png"
+  },
+  "session_errors": [],
+  "pair_errors": []
+}
