@@ -1,0 +1,26 @@
+{
+  "mouse": "AL032",
+  "session_labels": [
+    "2019-11-21",
+    "2019-11-22",
+    "Chronic_1",
+    "Chronic_2"
+  ],
+  "short_labels": [
+    "A1",
+    "A2",
+    "C1",
+    "C2"
+  ],
+  "depth_offsets_um": {
+    "1": 0.0,
+    "2": 0.20873096150216952,
+    "3": -0.1367817778157132,
+    "4": -0.22853617005785054
+  },
+  "depth_registration": "registered unit centroid depth from WaveformInfo.avg_centroid[2] plus original per-spike residual from PreparedData spikeDepths",
+  "all_units_plot": "mouse_tracking_visuals/AL032/all_units_depth_vs_time.png",
+  "matched_units_plot": "mouse_tracking_visuals/AL032/matched_units_depth_vs_time.png",
+  "waveform_gallery_plot": "mouse_tracking_visuals/AL032/tracked_waveform_gallery.png",
+  "selected_uids_csv": "mouse_tracking_visuals/AL032/selected_tracked_units.csv"
+}
