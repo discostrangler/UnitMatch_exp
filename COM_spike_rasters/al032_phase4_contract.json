@@ -1,0 +1,110 @@
+{
+  "phase": "AL032 Phase 4",
+  "status": "frozen",
+  "output_directory_pattern": "/scratch/am15577/UnitMatch/spike_rosters_raw/al032_session_outputs/<session_name>",
+  "required_artifacts": [
+    "localized_spike_table.csv.gz",
+    "validation_report.json",
+    "good_cluster_summary.csv",
+    "exact_depth_raster.png"
+  ],
+  "optional_artifacts": [
+    "corrupted_region_summary.json",
+    "localized_depth_histogram.png",
+    "cluster_depth_spread.png",
+    "example_cluster_scatter.png",
+    "notes.md",
+    "processing_windows.csv",
+    "selected_good_clusters.csv"
+  ],
+  "spike_table_columns": [
+    "source_spike_index",
+    "spike_time_samples",
+    "spike_time_s",
+    "cluster_id",
+    "is_good_cluster",
+    "peak_channel_index",
+    "template_peak_y_um",
+    "template_com_y_um",
+    "processing_chunk_id",
+    "read_window_id",
+    "localization_attempted",
+    "localization_success",
+    "localization_missing",
+    "skip_reason",
+    "x_um",
+    "y_um",
+    "amplitude"
+  ],
+  "good_cluster_summary_columns": [
+    "cluster_id",
+    "total_spike_count",
+    "localized_spike_count",
+    "localized_x_median_um",
+    "localized_y_median_um",
+    "localized_y_mean_um",
+    "localized_y_std_um",
+    "localized_y_min_um",
+    "localized_y_max_um",
+    "amplitude_median",
+    "skipped_spike_count",
+    "localized_fraction",
+    "primary_template_id",
+    "template_peak_y_um",
+    "template_com_y_um",
+    "peak_channel_index",
+    "delta_median_vs_template_peak_um",
+    "delta_median_vs_template_com_um",
+    "Amplitude",
+    "firing_rate_hz",
+    "contamination_pct",
+    "cluster_metrics_spike_count"
+  ],
+  "validation_report_keys": [
+    "session_name",
+    "run_mode",
+    "total_spikes",
+    "total_good_cluster_spikes",
+    "localized_spikes",
+    "localized_good_cluster_spikes",
+    "skipped_corrupted_spikes",
+    "skipped_read_failure_spikes",
+    "skipped_invalid_peak_spikes",
+    "skipped_other_spikes",
+    "unresolved_pipeline_gap_spikes",
+    "localized_fraction_overall",
+    "localized_fraction_good_clusters",
+    "processing_chunk_count",
+    "readable_window_count",
+    "failed_window_count",
+    "plotting_status",
+    "plotting_excluded_nonfinite_localized_spikes",
+    "plotting_excluded_nonfinite_good_cluster_spikes",
+    "join_integrity",
+    "corrupted_region_summary_path",
+    "selected_cluster_depth_examples",
+    "outputs"
+  ],
+  "localization_status_vocabulary": [
+    "",
+    "corrupted_raw_chunk",
+    "read_failure",
+    "invalid_peak",
+    "other",
+    "unresolved_pipeline_gap"
+  ],
+  "run_modes": [
+    "exact",
+    "partial"
+  ],
+  "partial_session_rule": {
+    "description": "Partial mode is allowed only when raw localization encounters known corrupted input regions and every skipped spike is explicitly labeled.",
+    "required_skip_reason": "corrupted_raw_chunk",
+    "required_artifact": "corrupted_region_summary.json"
+  },
+  "schema_consistency": {
+    "spike_table_columns_consistent": true,
+    "good_cluster_summary_columns_consistent": true,
+    "validation_report_keys_consistent": true
+  }
+}
