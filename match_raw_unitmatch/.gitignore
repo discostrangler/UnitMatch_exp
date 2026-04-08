@@ -1,0 +1,14 @@
+logs/
+tmp/
+scripts/__pycache__/
+outputs/attached_spikes/
+outputs/figures/
+outputs/tracked_tables/
+outputs/unitmatch_raw_12session/ClusInfo.pickle
+outputs/unitmatch_raw_12session/MatchProb.npy
+outputs/unitmatch_raw_12session/MatchTable.csv
+outputs/unitmatch_raw_12session/Matches.npy
+outputs/unitmatch_raw_12session/UM Scores.npz
+outputs/unitmatch_raw_12session/UMparam.pickle
+outputs/unitmatch_raw_12session/WaveformInfo.npz
+outputs/unitmatch_raw_12session/run_summary.json
