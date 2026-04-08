@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-04-08T04:21:31-04:00",
+  "output_dir": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch",
+  "session_names": [
+    "AL032_2019-11-21",
+    "AL032_2019-11-22",
+    "AL032_2019-12-03",
+    "AL032_2019-12-13",
+    "AL032_2020-01-07",
+    "AL032_2020-01-16",
+    "AL032_2020-02-04",
+    "AL032_2020-02-19",
+    "AL032_2020-03-06",
+    "AL032_2020-03-19",
+    "AL032_2020-03-31",
+    "AL032_2020-06-03"
+  ],
+  "session_dates": [
+    "2019-11-21",
+    "2019-11-22",
+    "2019-12-03",
+    "2019-12-13",
+    "2020-01-07",
+    "2020-01-16",
+    "2020-02-04",
+    "2020-02-19",
+    "2020-03-06",
+    "2020-03-19",
+    "2020-03-31",
+    "2020-06-03"
+  ],
+  "n_sessions": 12,
+  "n_units_in_match_probability_matrix": 3367,
+  "match_threshold": 0.5,
+  "n_conflict_free_tracked_units": 1465,
+  "units_per_session": {
+    "AL032_2019-11-21": 238,
+    "AL032_2019-11-22": 222,
+    "AL032_2019-12-03": 222,
+    "AL032_2019-12-13": 196,
+    "AL032_2020-01-07": 238,
+    "AL032_2020-01-16": 224,
+    "AL032_2020-02-04": 236,
+    "AL032_2020-02-19": 201,
+    "AL032_2020-03-06": 235,
+    "AL032_2020-03-19": 249,
+    "AL032_2020-03-31": 278,
+    "AL032_2020-06-03": 179
+  },
+  "max_pair_shared_units": {
+    "session_name_i": "AL032_2020-01-07",
+    "session_name_j": "AL032_2020-01-16",
+    "shared_tracked_units": 119,
+    "shared_fraction_of_possible": 0.53125
+  },
+  "probability_distribution_counts": {
+    "self_pairs": 3367,
+    "within_session_pairs": 477288,
+    "across_session_pairs": 5189373
+  },
+  "files": {
+    "match_probability_matrix": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_match_probability_matrix.png",
+    "thresholded_match_matrix": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_thresholded_match_matrix.png",
+    "session_pair_tracked_counts": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_session_pair_tracked_counts.png",
+    "session_pair_tracked_fraction": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_session_pair_tracked_fraction.png",
+    "probability_distributions": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_probability_distributions.png",
+    "tracked_unit_lifespan_histogram": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_tracked_unit_lifespan_histogram.png",
+    "tracking_vs_session_gap": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_tracking_vs_session_gap.png",
+    "tracking_summary_panel": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/unitmatch_tracking_summary_panel.png",
+    "session_pair_tracking_metrics": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/session_pair_tracking_metrics.csv",
+    "tracked_unit_lifespan_counts": "/scratch/am15577/UnitMatch/match_raw_unitmatch/outputs/unitmatch_raw_12session/outputs_unitmatch/tracked_unit_lifespan_counts.csv"
+  }
+}
