@@ -1,0 +1,7 @@
+logs/
+tmp/
+outputs/
+configs/
+manifests/
+scripts/__pycache__/
+spike_video/__pycache__/
